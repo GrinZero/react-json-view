@@ -1,7 +1,7 @@
 {
-    "name": "react-json-view",
+    "name": "react-json-view-18",
     "description": "Interactive react component for displaying javascript arrays and JSON objects.",
-    "version": "1.21.3",
+    "version": "1.21.4",
     "main": "dist/main.js",
     "dependencies": {
         "flux": "^4.0.1",
@@ -48,8 +48,8 @@
         "webpack-dev-server": "^3.11.2"
     },
     "peerDependencies": {
-        "react": "^17.0.0 || ^16.3.0 || ^15.5.4",
-        "react-dom": "^17.0.0 || ^16.3.0 || ^15.5.4"
+        "react": "^18.0.0 || ^17.0.0 || ^16.3.0 || ^15.5.4",
+        "react-dom": "^18.0.0 || ^17.0.0 || ^16.3.0 || ^15.5.4"
     },
     "scripts": {
         "build": "NODE_ENV=production webpack --config webpack/webpack.config.js -p --display-error-details --progress --optimize-minimize",
